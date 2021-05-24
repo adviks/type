@@ -55,7 +55,7 @@ a{
 }
 .mainTitle{
     font-weight:500;
-    font-size: calc(94px + (160 - 64) * ((100vw - 300px) / (1200 - 300)));
+    font-size: calc(64px + (130 - 64) * ((100vw - 300px) / (1200 - 300)));
     line-height:0.9;
 }
 .by{
