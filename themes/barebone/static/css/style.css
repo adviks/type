@@ -79,6 +79,7 @@ h1, h2, h3{
     font-family: 'GB', serif;
     font-weight:500;
     font-size: calc(84px + (130 - 84) * ((100vw - 300px) / (1200 - 300)));
+    line-height: 0.95;
 }
 .by{
     font-style: italic;
