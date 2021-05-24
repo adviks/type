@@ -1,0 +1,43 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;0,500,400;1,700&display=swap');
+/* FONTS  */
+
+body{
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+    color: black;
+
+}
+
+.container{
+    max-width: 900px;
+    padding: 2%;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.titleContent{
+}
+.mainTitle{
+    font-weight:500;
+    font-size: calc(94px + (160 - 94) * ((100vw - 300px) / (1200 - 300)));
+    line-height:0.8
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
