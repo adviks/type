@@ -47,7 +47,7 @@ body{
 
 }
 a{
-    color: #e55050;
+    color: black;
 }
 
 h1, h2, h3{
@@ -73,11 +73,9 @@ h1, h2, h3{
     font-family: "Graphik", sans-serif;
     font-size: 18px;
 }
-.titleContent{
-}
+
 .mainTitle{
     font-family: 'GB', serif;
-    font-weight:500;
     font-size: calc(84px + (130 - 84) * ((100vw - 300px) / (1200 - 300)));
     line-height: 0.95;
 }
@@ -106,9 +104,10 @@ li.tocItem{
     font-family: "Graphik", sans-serif;
     display: block;
     width: auto;
+    color: #e55050;
 }
 .tocItem:hover{
-    color: silver;
+    color: black;
 }
 
 .footer{
