@@ -1,5 +1,19 @@
 /* FONTS */
 @font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'GB';
     src: url('GoudyBookletter1911.otf') format('truetype');
     font-style: normal;
@@ -37,8 +51,8 @@ a{
 }
 
 h1, h2, h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "Graphik", sans-serif;
+    font-weight: 500;
 }
 .container{
     max-width: 800px;
@@ -51,21 +65,20 @@ h1, h2, h3{
     outline: none;
 }
 .navbar-brand{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .nav-link{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 18px;
 }
 .titleContent{
 }
 .mainTitle{
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'GB', serif;
     font-weight:500;
     font-size: calc(84px + (130 - 84) * ((100vw - 300px) / (1200 - 300)));
-    line-height:0.9;
 }
 .by{
     font-style: italic;
@@ -74,10 +87,10 @@ h1, h2, h3{
     display: inline;
 }
 .author{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 24px;
     color: #e55050;
-    font-weight: 700;
+    font-weight: 500;
     display: inline;
 }
 
@@ -89,7 +102,7 @@ text-decoration: none;
 }
 
 li.tocItem{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Graphik", sans-serif;
     display: block;
     width: auto;
 }
@@ -98,7 +111,7 @@ li.tocItem{
 }
 
 .footer{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Graphik", sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
