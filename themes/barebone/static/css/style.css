@@ -1,9 +1,28 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;0,500,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Sorts Mill Goudy';
+    src: url('GoudyStM.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sorts Mill Goudy';
+    src: url('GoudyStM-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 /* FONTS  */
 
 body{
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 24px;
     color: black;
     padding: 2%;
@@ -24,12 +43,12 @@ a{
     outline: none;
 }
 .navbar-brand{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
 .nav-link{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 .titleContent{
@@ -40,14 +59,13 @@ a{
     line-height:0.8
 }
 .by{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-style: italic;
     font-size: 30px;
     color: silver;
     display: inline;
 }
 .author{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #e55050;
     font-weight: 700;
@@ -62,7 +80,7 @@ text-decoration: none;
 }
 
 li.tocItem{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     width: auto;
 }
@@ -71,7 +89,7 @@ li.tocItem{
 }
 
 .footer{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
